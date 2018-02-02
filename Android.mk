@@ -1,5 +1,5 @@
 
-ifeq ($(strip $(TARGET_USES_QCOM_SNAPDRAGON_MUSIC)),true)
+ifeq ($(strip $(TARGET_USES_SNAPDRAGON_MUSIC)),true)
 
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
