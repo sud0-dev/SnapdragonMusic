@@ -267,7 +267,7 @@ public class MusicUtils {
             realActivity = context;
         }
         ContextWrapper cw = new ContextWrapper(context);
-        cw.startService(new Intent(cw, MediaPlaybackService.class));
+        MusicUtils.startService(cw, new Intent(cw, MediaPlaybackService.class));
         ServiceBinder sb = new ServiceBinder(callback);
         if (cw.bindService((new Intent()).setClass(cw, MediaPlaybackService.class), sb, 0)) {
             sConnectionMap.put(cw, sb);
@@ -1000,6 +1000,9 @@ public class MusicUtils {
 
     private static void playAll(Context context, long[] list, int position,
             boolean force_shuffle) {
+        if (isForbidPlaybackInCall(context)) {
+            return;
+        }
         if (list.length == 0 || sService == null) {
             Log.d("MusicUtils", "attempt to play empty song list");
             // Don't try to play empty playlists. Nothing good will come of it.
@@ -2273,6 +2276,20 @@ public class MusicUtils {
                 || state == TelephonyManager.CALL_STATE_RINGING);
     }
 
+    public static boolean isForbidPlaybackInCall(Context context) {
+        if (context == null)
+            return false;
+
+        if (isTelephonyCallInProgress(context)) {
+            Log.d("MusicUtils", "playAll  in a call");
+            // Don't try to play music in a call begin from android Q.
+            Toast.makeText(context, R.string.cant_play_music_in_call, Toast.LENGTH_SHORT).show();
+            return true;
+        }
+
+        return false;
+    }
+
     public static void addSetRingtonMenu(Menu menu) {
         menu.add(0, Defs.USE_AS_RINGTONE, 0, R.string.ringtone_menu);
     }
@@ -2292,4 +2309,19 @@ public class MusicUtils {
 
         return  lruCache.put(key, value);
     }
+
+    public static void startService(Context context, Intent intent) {
+        if (context == null || intent == null){
+            Log.e(TAG, "context or intent null");
+            return ;
+        }
+
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+            context.startForegroundService(intent);
+        } else {
+            context.startService(intent);
+        }
+        return;
+    }
+
 }

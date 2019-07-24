@@ -349,7 +349,7 @@ public class MediaPlaybackService extends Service {
                                     .create();
 
                             alertDialog.getWindow()
-                                    .setType(WindowManager.LayoutParams.TYPE_SYSTEM_ALERT);
+                                    .setType(WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY);
                             alertDialog.show();
                         }
                     }
@@ -471,6 +471,11 @@ public class MediaPlaybackService extends Service {
             String action = intent.getAction();
             String cmd = intent.getStringExtra("command");
             MusicUtils.debugLog("mIntentReceiver.onReceive " + action + " / " + cmd);
+
+            if (MusicUtils.isForbidPlaybackInCall(context)){
+                return;
+            }
+
             if (CMDNEXT.equals(cmd) || NEXT_ACTION.equals(action)) {
                 sendEmptyMessageIfNo(GOTO_NEXT);
             } else if (CMDPREVIOUS.equals(cmd) || PREVIOUS_ACTION.equals(action)) {
@@ -662,6 +667,7 @@ public class MediaPlaybackService extends Service {
         mControlInStatusBar = getApplicationContext().getResources().getBoolean(R.bool.control_in_statusbar);
 
         updateNotification();
+        startForeground(PLAYBACKSERVICE_STATUS, status);
 
     }
 
@@ -1157,6 +1163,11 @@ public class MediaPlaybackService extends Service {
             public void onReceive(Context context, Intent intent) {
                 String action = intent.getAction();
                 String cmd = intent.getStringExtra("command");
+
+                if (MusicUtils.isForbidPlaybackInCall(context)){
+                    return;
+                }
+
                 if (action.equals(SET_ADDRESSED_PLAYER)) {
                     play(); // this ensures audio focus change is called and play the media
                 } else if (action.equals(PLAYSTATUS_REQUEST)) {
@@ -1765,6 +1776,10 @@ public class MediaPlaybackService extends Service {
     }
 
     private void updateNotification() {
+        if (MusicUtils.isForbidPlaybackInCall(getApplicationContext())){
+            return;
+        }
+
         views = new RemoteViews(getPackageName(), R.layout.statusbar_appwidget_s);
         viewsLarge = new RemoteViews(getPackageName(), R.layout.statusbar_appwidget_l);
         if (getApplicationContext().getResources().getBoolean(R.bool.exit_in_notification)) {
@@ -3451,11 +3466,11 @@ public class MediaPlaybackService extends Service {
                         if (keycode == KeyEvent.KEYCODE_HEADSETHOOK &&
                                 eventTime - mLastClickTime < 300) {
                             i.putExtra(MediaPlaybackService.CMDNAME, MediaPlaybackService.CMDNEXT);
-                            context.startService(i);
+                            MusicUtils.startService(context, i);
                             mLastClickTime = 0;
                         } else {
                             i.putExtra(MediaPlaybackService.CMDNAME, command);
-                            context.startService(i);
+                            MusicUtils.startService(context, i);
                             mLastClickTime = eventTime;
                         }
 
