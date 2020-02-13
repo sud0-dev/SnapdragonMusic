@@ -51,9 +51,9 @@ import android.os.ParcelFileDescriptor;
 import android.os.RemoteException;
 import android.provider.MediaStore;
 import android.provider.Settings;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.widget.Toolbar;
+//import android.support.v4.widget.DrawerLayout;
+//import android.support.v7.app.ActionBarDrawerToggle;
+//import android.support.v7.widget.Toolbar;
 import android.telecom.PhoneAccountHandle;
 import android.telecom.TelecomManager;
 import android.telephony.SubscriptionInfo;
@@ -817,7 +817,7 @@ public class MusicUtils {
         return query(context, uri, projection, selection, selectionArgs, sortOrder, 0);
     }
 
-    public static boolean isMediaScannerScanning(Context context) {
+    private static boolean isMediaScannerScanning(Context context) {
         boolean result = false;
         Cursor cursor = query(context, MediaStore.getMediaScannerUri(), 
                 new String [] { MediaStore.MEDIA_SCANNER_VOLUME }, null, null, null);

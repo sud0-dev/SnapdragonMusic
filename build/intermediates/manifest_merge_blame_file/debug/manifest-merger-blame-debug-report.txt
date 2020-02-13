@@ -17,685 +17,685 @@
 17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 18    package="com.android.music"
 19    android:versionCode="1"
-20    android:versionName="1.0" > <!-- SDK Versions -->
-21    <uses-sdk
-21-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:21:5-22:46
-22        android:minSdkVersion="28"
-22-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:21:15-41
-23        android:targetSdkVersion="29" />
-23-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:22:15-44
-24
-25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-25-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:24:5-76
-25-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:24:22-74
-26    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-26-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:25:5-72
-26-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:25:22-70
-27    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-27-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:26:5-77
-27-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:26:22-75
-28    <uses-permission android:name="android.permission.WAKE_LOCK" />
-28-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:27:5-67
-28-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:27:22-65
-29    <uses-permission android:name="android.permission.INTERNET" />
-29-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:28:5-66
-29-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:28:22-64
-30    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-30-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:29:5-74
-30-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:29:22-72
-31    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-31-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:30:5-79
-31-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:30:22-77
-32    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-32-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:31:5-80
-32-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:31:22-78
-33    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
-33-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:32:5-74
-33-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:32:22-72
-34    <uses-permission android:name="android.permission.BLUETOOTH" />
-34-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:33:5-68
-34-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:33:22-65
-35    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-35-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:34:5-74
-35-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:34:22-71
-36    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
-36-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:35:5-83
-36-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:35:22-81
-37    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
-37-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:36:5-77
-37-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:36:22-75
-38    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-38-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:26:5-77
-38-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:26:22-75
-39    <!-- App Declaration -->
-40    <application
-40-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:40:5-312:19
-41        android:allowBackup="true"
-41-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:48:9-35
-42        android:allowTaskReparenting="true"
-42-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:45:9-44
-43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-43-->[androidx.core:core:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\25053394e11f3b05d5a2d67c677b4ed9\core-1.1.0\AndroidManifest.xml:24:18-86
-44        android:debuggable="true"
-45        android:extractNativeLibs="false"
-46        android:hardwareAccelerated="true"
-46-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:44:9-43
-47        android:icon="@drawable/app_music"
-47-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:41:9-43
-48        android:label="@string/musicbrowserlabel"
-48-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:42:9-50
-49        android:supportsRtl="true"
-49-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:47:9-35
-50        android:taskAffinity="android.task.music"
-50-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:43:9-50
-51        android:testOnly="true"
-52        android:usesCleartextTraffic="true" >
-52-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:46:9-44
-53
-54        <!-- Meta Data -->
-55        <meta-data
-55-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:51:8-54:11
-56            android:name="android.app.default_searchable"
-56-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:52:13-58
-57            android:value="com.android.music.QueryBrowserActivity" />
-57-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:53:13-67
-58        <!-- Main Activity -->
-59        <activity
-59-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:56:9-87:20
-60            android:name="com.android.music.MusicBrowserActivity"
-60-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:56:19-72
-61            android:configChanges="orientation|screenSize|fontScale"
-61-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:58:13-69
-62            android:exported="true"
-62-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:13-36
-63            android:launchMode="singleTask"
-63-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:59:13-44
-64            android:theme="@style/AppTheme" >
-64-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:57:13-44
-65            <intent-filter>
-65-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:61:13-67:29
-66                <action android:name="android.intent.action.MAIN" />
-66-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:62:17-69
-66-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:62:25-66
-67                <action android:name="android.intent.action.MUSIC_PLAYER" />
-67-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:63:17-77
-67-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:63:25-74
-68
-69                <category android:name="android.intent.category.DEFAULT" />
-69-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:17-76
-69-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:27-73
-70                <category android:name="android.intent.category.LAUNCHER" />
-70-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:65:17-77
-70-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:65:27-74
-71                <category android:name="android.intent.category.APP_MUSIC" />
-71-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-78
-71-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:27-75
-72            </intent-filter>
-73            <intent-filter>
-73-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:15-77:29
-74                <category android:name="android.intent.category.DEFAULT" />
-74-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:17-76
-74-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:27-73
-75
-76                <data android:scheme="content" />
-76-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-76-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:23-47
-77                <data android:host="media" />
-77-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-77-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:71:23-43
-78                <data android:mimeType="audio/*" />
-78-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-78-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-79                <data android:mimeType="application/ogg" />
-79-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-79-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-80                <data android:mimeType="application/x-ogg" />
-80-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-80-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-81                <data android:mimeType="application/itunes" />
-81-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-81-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-82                <data android:mimeType="vnd.android.cursor.dir/playlist" />
-82-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-82-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-83            </intent-filter>
-84            <intent-filter>
-84-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:78:13-82:29
-85                <action android:name="android.intent.action.EDIT" />
-85-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:79:17-69
-85-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:79:25-66
-86
-87                <category android:name="android.intent.category.DEFAULT" />
-87-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:17-76
-87-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:27-73
-88
-89                <data android:mimeType="vnd.android.cursor.dir/playlist" />
-89-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-89-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-90            </intent-filter>
-91            <intent-filter>
-91-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:83:13-86:29
-92                <action android:name="com.android.music.PLAYBACK_VIEWER" />
-92-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:84:17-76
-92-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:84:25-73
-93
-94                <category android:name="android.intent.category.DEFAULT" />
-94-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:17-76
-94-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:27-73
-95            </intent-filter>
-96        </activity>
-97
-98        <activity-alias
-98-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:179:9-190:26
-99            android:name="com.android.music.PlaylistShortcutActivity"
-99-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:179:25-82
-100            android:exported="true"
-100-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:183:13-36
-101            android:icon="@drawable/ic_launcher_shortcut_music_playlist"
-101-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:182:13-73
-102            android:label="@string/musicshortcutlabel"
-102-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:181:13-55
-103            android:targetActivity="com.android.music.MusicBrowserActivity" >
-103-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:180:13-76
-104            <intent-filter>
-104-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:185:13-188:29
-105                <action android:name="android.intent.action.CREATE_SHORTCUT" />
-105-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:186:17-80
-105-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:186:25-77
-106
-107                <category android:name="android.intent.category.DEFAULT" />
-107-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:17-76
-107-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:27-73
-108            </intent-filter>
-109        </activity-alias>
-110        <!--
-111             This is the "current music playing" panel, which has special
-112             launch behavior.  We clear its task affinity, so it will not
-113             be associated with the main media task and if launched
-114             from a notification will not bring the rest of the media app
-115             to the foreground.  We make it singleTask so that when others
-116             launch it (such as media) we will launch in to our own task.
-117             We set clearTaskOnLaunch because the user
-118             can go to a playlist from this activity, so if they later return
-119             to it we want it back in its initial state.  We exclude from
-120             recents since this is accessible through a notification when
-121             appropriate.
-122        -->
-123        <activity
-123-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:99:9-109:20
-124            android:name="com.android.music.MediaPlaybackActivity"
-124-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:99:19-73
-125            android:clearTaskOnLaunch="true"
-125-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:104:17-49
-126            android:configChanges="orientation|keyboardHidden"
-126-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:106:17-67
-127            android:excludeFromRecents="true"
-127-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:105:17-50
-128            android:label="@string/mediaplaybacklabel"
-128-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:101:17-59
-129            android:launchMode="singleTask"
-129-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:103:17-48
-130            android:taskAffinity=""
-130-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:102:17-40
-131            android:theme="@style/AppTheme" >
-131-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:100:17-48
-132        </activity>
-133        <activity
-133-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:111:9-113:20
-134            android:name="com.codeaurora.music.custom.PermissionActivity"
-134-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:111:19-80
-135            android:launchMode="singleTask" >
-135-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:112:19-50
-136        </activity>
-137        <activity
-137-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:115:9-148:20
-138            android:name="com.android.music.AudioPreview"
-138-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:115:19-46
-139            android:configChanges="orientation"
-139-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:118:17-52
-140            android:excludeFromRecents="true"
-140-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:117:17-50
-141            android:exported="true"
-141-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:117:51-74
-142            android:taskAffinity=""
-142-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:116:17-40
-143            android:theme="@android:style/Theme.Material.Dialog" >
-143-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:115:47-99
-144            <intent-filter>
-144-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:119:13-127:29
-145                <action android:name="android.intent.action.VIEW" />
-145-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:120:17-69
-145-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:120:25-66
-146
-147                <category android:name="android.intent.category.DEFAULT" />
-147-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:17-76
-147-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:27-73
-148
-149                <data android:scheme="file" />
-149-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-149-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:23-47
-150                <data android:mimeType="audio/*" />
-150-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-150-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-151                <data android:mimeType="application/ogg" />
-151-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-151-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-152                <data android:mimeType="application/x-ogg" />
-152-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-152-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-153                <data android:mimeType="application/itunes" />
-153-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-153-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-154            </intent-filter>
-155            <intent-filter>
-155-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:128:13-137:29
-156                <action android:name="android.intent.action.VIEW" />
-156-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:120:17-69
-156-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:120:25-66
-157
-158                <category android:name="android.intent.category.DEFAULT" />
-158-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:17-76
-158-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:27-73
-159                <category android:name="android.intent.category.BROWSABLE" />
-159-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:131:17-78
-159-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:131:27-75
-160
-161                <data android:scheme="http" />
-161-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-161-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:23-47
-162                <data android:mimeType="audio/*" />
-162-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-162-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-163                <data android:mimeType="application/ogg" />
-163-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-163-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-164                <data android:mimeType="application/x-ogg" />
-164-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-164-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-165                <data android:mimeType="application/itunes" />
-165-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-165-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-166            </intent-filter>
-167            <intent-filter>
-167-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:138:13-147:29
-168                <action android:name="android.intent.action.VIEW" />
-168-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:120:17-69
-168-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:120:25-66
-169
-170                <category android:name="android.intent.category.DEFAULT" />
-170-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:17-76
-170-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:27-73
-171                <category android:name="android.intent.category.BROWSABLE" />
-171-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:131:17-78
-171-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:131:27-75
-172
-173                <data android:scheme="content" />
-173-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-173-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:23-47
-174                <data android:mimeType="audio/*" />
-174-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-174-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-175                <data android:mimeType="application/ogg" />
-175-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-175-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-176                <data android:mimeType="application/x-ogg" />
-176-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-176-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-177                <data android:mimeType="application/itunes" />
-177-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-177-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-178            </intent-filter>
-179        </activity>
-180        <activity
-180-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:150:9-164:20
-181            android:name="com.android.music.QueryBrowserActivity"
-181-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:150:19-72
-182            android:configChanges="orientation|keyboardHidden|screenSize"
-182-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:154:17-78
-183            android:exported="true"
-183-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:152:17-40
-184            android:launchMode="singleTask"
-184-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:153:17-48
-185            android:theme="@style/QueryTheme" >
-185-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:151:17-50
-186            <intent-filter>
-186-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:155:13-159:29
-187                <action android:name="android.intent.action.SEARCH" />
-187-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:156:17-71
-187-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:156:25-68
-188                <action android:name="android.intent.action.MEDIA_SEARCH" />
-188-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:157:17-77
-188-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:157:25-74
-189
-190                <category android:name="android.intent.category.DEFAULT" />
-190-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:17-76
-190-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:27-73
-191            </intent-filter>
-192
-193            <meta-data
-193-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:160:13-163:15
-194                android:name="android.app.searchable"
-194-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:161:17-54
-195                android:resource="@xml/searchable" />
-195-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:162:17-51
-196        </activity>
-197        <activity
-197-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:165:9-178:20
-198            android:name="com.android.music.PlaylistBrowserActivity"
-198-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:165:19-75
-199            android:configChanges="orientation|keyboardHidden|screenSize"
-199-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:168:17-78
-200            android:exported="true"
-200-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:167:17-40
-201            android:label="@string/musicbrowserlabel" >
-201-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:166:17-58
-202            <intent-filter>
-202-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:169:13-173:29
-203                <action android:name="android.intent.action.PICK" />
-203-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:170:17-69
-203-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:170:25-66
-204
-205                <category android:name="android.intent.category.DEFAULT" />
-205-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:17-76
-205-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:27-73
-206
-207                <data android:mimeType="vnd.android.cursor.dir/playlist" />
-207-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-207-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-208            </intent-filter>
-209            <intent-filter>
-209-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:174:13-177:29
-210                <category android:name="android.intent.category.DEFAULT" />
-210-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:17-76
-210-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:27-73
-211
-212                <data android:mimeType="vnd.android.cursor.dir/playlist" />
-212-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-212-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-213            </intent-filter>
-214        </activity>
-215        <activity
-215-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:192:9-194:20
-216            android:name="com.android.music.GestureHandler"
-216-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:192:19-48
-217            android:theme="@android:style/Theme.NoDisplay" >
-217-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:193:13-59
-218        </activity>
-219
-220        <activity-alias
-220-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:205:9-209:26
-221            android:name="com.android.music.MusticGestureNextActivity"
-221-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:205:25-83
-222            android:exported="true"
-222-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:208:13-36
-223            android:label="@string/music_gesture_next"
-223-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:207:13-55
-224            android:targetActivity="com.android.music.GestureHandler" >
-224-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:206:13-70
-225        </activity-alias>
-226        <activity-alias
-226-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:200:9-204:26
-227            android:name="com.android.music.MusticGesturePrevActivity"
-227-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:200:25-83
-228            android:exported="true"
-228-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:203:13-36
-229            android:label="@string/music_gesture_prev"
-229-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:202:13-55
-230            android:targetActivity="com.android.music.GestureHandler" >
-230-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:201:13-70
-231        </activity-alias>
-232        <activity-alias
-232-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:195:9-199:26
-233            android:name="com.android.music.MusticGesturePlayActivity"
-233-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:195:25-83
-234            android:exported="true"
-234-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:198:13-36
-235            android:label="@string/music_gesture_play"
-235-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:197:13-55
-236            android:targetActivity="com.android.music.GestureHandler" >
-236-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:196:13-70
-237        </activity-alias>
-238
-239        <activity
-239-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:211:9-231:20
-240            android:name="com.android.music.VideoBrowserActivity"
-240-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:211:19-72
-241            android:exported="true"
-241-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:215:13-36
-242            android:icon="@drawable/app_video"
-242-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:214:13-47
-243            android:label="@string/videobrowserlabel"
-243-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:213:13-54
-244            android:taskAffinity="android.task.video" >
-244-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:212:13-54
-245            <intent-filter>
-245-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:216:13-220:29
-246                <action android:name="android.intent.action.PICK" />
-246-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:170:17-69
-246-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:170:25-66
-247
-248                <category android:name="android.intent.category.DEFAULT" />
-248-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:17-76
-248-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:27-73
-249
-250                <data android:mimeType="vnd.android.cursor.dir/video" />
-250-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-250-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-251            </intent-filter>
-252            <intent-filter>
-252-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:221:13-225:29
-253                <action android:name="android.intent.action.MAIN" />
-253-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:62:17-69
-253-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:62:25-66
-254
-255                <category android:name="android.intent.category.DEFAULT" />
-255-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:17-76
-255-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:27-73
-256                <category android:name="android.intent.category.LAUNCHER" />
-256-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:65:17-77
-256-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:65:27-74
-257            </intent-filter>
-258            <intent-filter>
-258-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:226:13-228:29
-259                <action android:name="android.intent.action.SEARCH" />
-259-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:156:17-71
-259-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:156:25-68
-260            </intent-filter>
-261
-262            <meta-data
-262-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:160:13-163:15
-263                android:name="android.app.searchable"
-263-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:161:17-54
-264                android:resource="@xml/searchable_video" />
-264-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:162:17-51
-265        </activity>
-266        <activity
-266-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:232:9-255:20
-267            android:name="com.android.music.MediaPickerActivity"
-267-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:232:19-71
-268            android:exported="false"
-268-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:233:58-82
-269            android:label="@string/mediapickerlabel" >
-269-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:233:17-57
-270
-271            <!--
-272            <intent-filter>
-273                <action android:name="android.intent.action.PICK" />
-274                <category android:name="android.intent.category.DEFAULT" />
-275                <data android:mimeType="media/*"/>
-276                <data android:mimeType="audio/*"/>
-277                <data android:mimeType="application/ogg"/>
-278                <data android:mimeType="application/x-ogg"/>
-279                <data android:mimeType="video/*"/>
-280            </intent-filter>
-281            <intent-filter>
-282                <action android:name="android.intent.action.GET_CONTENT" />
-283                <category android:name="android.intent.category.DEFAULT" />
-284                <category android:name="android.intent.category.OPENABLE" />
-285                <data android:mimeType="media/*"/>
-286                <data android:mimeType="audio/*"/>
-287                <data android:mimeType="application/ogg"/>
-288                <data android:mimeType="application/x-ogg"/>
-289                <data android:mimeType="video/*"/>
-290            </intent-filter>
-291            -->
-292        </activity>
-293        <activity
-293-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:256:9-277:20
-294            android:name="com.android.music.MusicPicker"
-294-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:256:19-63
-295            android:configChanges="orientation|keyboardHidden|screenSize"
-295-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:257:17-78
-296            android:exported="true"
-296-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:258:60-83
-297            android:label="@string/music_picker_title" >
-297-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:258:17-59
-298
-299            <!--
-300                 First way to invoke us: someone asks to get content of
-301                 any of the audio types we support.
-302            -->
-303            <intent-filter>
-303-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:261:13-268:29
-304                <action android:name="android.intent.action.GET_CONTENT" />
-304-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:262:17-76
-304-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:262:25-73
-305
-306                <category android:name="android.intent.category.DEFAULT" />
-306-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:17-76
-306-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:27-73
-307                <category android:name="android.intent.category.OPENABLE" />
-307-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:264:17-77
-307-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:264:27-74
-308
-309                <data android:mimeType="audio/*" />
-309-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-309-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-310                <data android:mimeType="application/ogg" />
-310-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-310-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-311                <data android:mimeType="application/x-ogg" />
-311-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-311-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-312            </intent-filter>
-313            <!--
-314                 Second way to invoke us: someone asks to pick an item from
-315                 some media Uri.
-316            -->
-317            <intent-filter>
-317-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:271:13-276:29
-318                <action android:name="android.intent.action.PICK" />
-318-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:170:17-69
-318-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:170:25-66
-319
-320                <category android:name="android.intent.category.DEFAULT" />
-320-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:17-76
-320-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:27-73
-321                <category android:name="android.intent.category.OPENABLE" />
-321-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:264:17-77
-321-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:264:27-74
-322
-323                <data android:mimeType="vnd.android.cursor.dir/audio" />
-323-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
-323-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
-324            </intent-filter>
-325        </activity>
-326        <activity
-326-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:278:9-280:66
-327            android:name="com.android.music.CreatePlaylist"
-327-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:278:19-66
-328            android:configChanges="orientation|keyboardHidden"
-328-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:280:13-63
-329            android:exported="false"
-329-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:279:72-96
-330            android:theme="@android:style/Theme.Material.Light.Dialog" />
-330-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:279:13-71
-331        <activity
-331-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:281:9-282:99
-332            android:name="com.android.music.RenamePlaylist"
-332-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:281:19-66
-333            android:exported="false"
-333-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:282:72-96
-334            android:theme="@android:style/Theme.Material.Light.Dialog" />
-334-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:282:13-71
-335        <activity
-335-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:283:9-284:99
-336            android:name="com.android.music.WeekSelector"
-336-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:283:19-64
-337            android:exported="false"
-337-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:284:72-96
-338            android:theme="@android:style/Theme.Material.Light.Dialog" />
-338-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:284:13-71
-339        <activity
-339-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:285:9-286:99
-340            android:name="com.android.music.DeleteItems"
-340-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:285:19-63
-341            android:exported="false"
-341-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:286:72-96
-342            android:theme="@android:style/Theme.Material.Light.Dialog" />
-342-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:286:13-71
-343        <activity
-343-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:287:9-288:99
-344            android:name="com.android.music.ScanningProgress"
-344-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:287:19-68
-345            android:exported="false"
-345-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:288:72-96
-346            android:theme="@android:style/Theme.Material.Light.Dialog" />
-346-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:288:13-71
-347
-348        <service
-348-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:289:9-290:40
-349            android:name="com.android.music.MediaPlaybackService"
-349-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:289:18-71
-350            android:exported="false" />
-350-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:290:13-37
-351
-352        <receiver android:name="com.android.music.MediaAppWidgetProvider" >
-352-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:292:9-300:20
-352-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:292:19-74
-353            <intent-filter>
-353-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:293:13-295:29
-354                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-354-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:294:17-84
-354-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:294:25-81
-355            </intent-filter>
-356            <intent-filter>
-356-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:296:13-298:29
-357                <action android:name="com.android.music.updatewidget" />
-357-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:297:17-73
-357-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:297:25-70
-358            </intent-filter>
-359
-360            <meta-data
-360-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:299:13-107
-361                android:name="android.appwidget.provider"
-361-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:299:24-65
-362                android:resource="@xml/appwidget_info" />
-362-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:299:66-104
-363        </receiver>
-364        <receiver android:name="com.android.music.MediaAppWidgetProviderLarge" >
-364-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:302:9-311:20
-364-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:302:19-79
-365            <intent-filter>
-365-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:293:13-295:29
-366                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-366-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:294:17-84
-366-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:294:25-81
-367            </intent-filter>
-368            <intent-filter>
-368-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:296:13-298:29
-369                <action android:name="com.android.music.updatewidget" />
-369-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:297:17-73
-369-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:297:25-70
-370            </intent-filter>
-371
-372            <meta-data
-372-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:299:13-107
-373                android:name="android.appwidget.provider"
-373-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:299:24-65
-374                android:resource="@xml/appwidget_info_l" />
-374-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:299:66-104
-375        </receiver>
-376    </application>
-377
-378</manifest>
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="29"
+23-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml
+24        android:targetSdkVersion="29" />
+24-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+26-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:20:5-76
+26-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:20:22-74
+27    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+27-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:21:5-72
+27-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:21:22-70
+28    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+28-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:22:5-77
+28-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:22:22-75
+29    <uses-permission android:name="android.permission.WAKE_LOCK" />
+29-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:23:5-67
+29-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:23:22-65
+30    <uses-permission android:name="android.permission.INTERNET" />
+30-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:24:5-66
+30-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:24:22-64
+31    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+31-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:25:5-74
+31-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:25:22-72
+32    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+32-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:26:5-79
+32-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:26:22-77
+33    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+33-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:27:5-80
+33-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:27:22-78
+34    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+34-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:28:5-74
+34-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:28:22-72
+35    <uses-permission android:name="android.permission.BLUETOOTH" />
+35-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:29:5-68
+35-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:29:22-65
+36    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+36-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:30:5-74
+36-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:30:22-71
+37    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+37-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:31:5-83
+37-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:31:22-81
+38    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+38-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:32:5-77
+38-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:32:22-75
+39    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+39-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:22:5-77
+39-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:22:22-75
+40    <!-- App Declaration -->
+41    <application
+41-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:36:5-308:19
+42        android:allowBackup="true"
+42-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:44:9-35
+43        android:allowTaskReparenting="true"
+43-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:41:9-44
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\25053394e11f3b05d5a2d67c677b4ed9\core-1.1.0\AndroidManifest.xml:24:18-86
+45        android:debuggable="true"
+46        android:extractNativeLibs="false"
+47        android:hardwareAccelerated="true"
+47-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:40:9-43
+48        android:icon="@drawable/app_music"
+48-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:37:9-43
+49        android:label="@string/musicbrowserlabel"
+49-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:38:9-50
+50        android:supportsRtl="true"
+50-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:43:9-35
+51        android:taskAffinity="android.task.music"
+51-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:39:9-50
+52        android:testOnly="true"
+53        android:usesCleartextTraffic="true" >
+53-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:42:9-44
+54
+55        <!-- Meta Data -->
+56        <meta-data
+56-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:47:8-50:11
+57            android:name="android.app.default_searchable"
+57-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:48:13-58
+58            android:value="com.android.music.QueryBrowserActivity" />
+58-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:49:13-67
+59        <!-- Main Activity -->
+60        <activity
+60-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:52:9-83:20
+61            android:name="com.android.music.MusicBrowserActivity"
+61-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:52:19-72
+62            android:configChanges="orientation|screenSize|fontScale"
+62-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:54:13-69
+63            android:exported="true"
+63-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:56:13-36
+64            android:launchMode="singleTask"
+64-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:55:13-44
+65            android:theme="@style/AppTheme" >
+65-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:53:13-44
+66            <intent-filter>
+66-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:57:13-63:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:58:17-69
+67-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:58:25-66
+68                <action android:name="android.intent.action.MUSIC_PLAYER" />
+68-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:59:17-77
+68-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:59:25-74
+69
+70                <category android:name="android.intent.category.DEFAULT" />
+70-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:17-76
+70-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:27-73
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:61:17-77
+71-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:61:27-74
+72                <category android:name="android.intent.category.APP_MUSIC" />
+72-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:62:17-78
+72-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:62:27-75
+73            </intent-filter>
+74            <intent-filter>
+74-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:15-73:29
+75                <category android:name="android.intent.category.DEFAULT" />
+75-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:17-76
+75-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:27-73
+76
+77                <data android:scheme="content" />
+77-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+77-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:23-47
+78                <data android:host="media" />
+78-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+78-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:67:23-43
+79                <data android:mimeType="audio/*" />
+79-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+79-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+80                <data android:mimeType="application/ogg" />
+80-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+80-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+81                <data android:mimeType="application/x-ogg" />
+81-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+81-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+82                <data android:mimeType="application/itunes" />
+82-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+82-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+83                <data android:mimeType="vnd.android.cursor.dir/playlist" />
+83-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+83-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+84            </intent-filter>
+85            <intent-filter>
+85-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:74:13-78:29
+86                <action android:name="android.intent.action.EDIT" />
+86-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:75:17-69
+86-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:75:25-66
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:17-76
+88-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:27-73
+89
+90                <data android:mimeType="vnd.android.cursor.dir/playlist" />
+90-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+90-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+91            </intent-filter>
+92            <intent-filter>
+92-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:79:13-82:29
+93                <action android:name="com.android.music.PLAYBACK_VIEWER" />
+93-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:80:17-76
+93-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:80:25-73
+94
+95                <category android:name="android.intent.category.DEFAULT" />
+95-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:17-76
+95-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:27-73
+96            </intent-filter>
+97        </activity>
+98
+99        <activity-alias
+99-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:175:9-186:26
+100            android:name="com.android.music.PlaylistShortcutActivity"
+100-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:175:25-82
+101            android:exported="true"
+101-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:179:13-36
+102            android:icon="@drawable/ic_launcher_shortcut_music_playlist"
+102-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:178:13-73
+103            android:label="@string/musicshortcutlabel"
+103-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:177:13-55
+104            android:targetActivity="com.android.music.MusicBrowserActivity" >
+104-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:176:13-76
+105            <intent-filter>
+105-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:181:13-184:29
+106                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+106-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:182:17-80
+106-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:182:25-77
+107
+108                <category android:name="android.intent.category.DEFAULT" />
+108-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:17-76
+108-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:27-73
+109            </intent-filter>
+110        </activity-alias>
+111        <!--
+112             This is the "current music playing" panel, which has special
+113             launch behavior.  We clear its task affinity, so it will not
+114             be associated with the main media task and if launched
+115             from a notification will not bring the rest of the media app
+116             to the foreground.  We make it singleTask so that when others
+117             launch it (such as media) we will launch in to our own task.
+118             We set clearTaskOnLaunch because the user
+119             can go to a playlist from this activity, so if they later return
+120             to it we want it back in its initial state.  We exclude from
+121             recents since this is accessible through a notification when
+122             appropriate.
+123        -->
+124        <activity
+124-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:95:9-105:20
+125            android:name="com.android.music.MediaPlaybackActivity"
+125-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:95:19-73
+126            android:clearTaskOnLaunch="true"
+126-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:100:17-49
+127            android:configChanges="orientation|keyboardHidden"
+127-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:102:17-67
+128            android:excludeFromRecents="true"
+128-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:101:17-50
+129            android:label="@string/mediaplaybacklabel"
+129-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:97:17-59
+130            android:launchMode="singleTask"
+130-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:99:17-48
+131            android:taskAffinity=""
+131-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:98:17-40
+132            android:theme="@style/AppTheme" >
+132-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:96:17-48
+133        </activity>
+134        <activity
+134-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:107:9-109:20
+135            android:name="com.codeaurora.music.custom.PermissionActivity"
+135-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:107:19-80
+136            android:launchMode="singleTask" >
+136-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:108:19-50
+137        </activity>
+138        <activity
+138-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:111:9-144:20
+139            android:name="com.android.music.AudioPreview"
+139-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:111:19-46
+140            android:configChanges="orientation"
+140-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:114:17-52
+141            android:excludeFromRecents="true"
+141-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:113:17-50
+142            android:exported="true"
+142-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:113:51-74
+143            android:taskAffinity=""
+143-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:112:17-40
+144            android:theme="@android:style/Theme.Material.Dialog" >
+144-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:111:47-99
+145            <intent-filter>
+145-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:115:13-123:29
+146                <action android:name="android.intent.action.VIEW" />
+146-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:116:17-69
+146-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:116:25-66
+147
+148                <category android:name="android.intent.category.DEFAULT" />
+148-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:17-76
+148-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:27-73
+149
+150                <data android:scheme="file" />
+150-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+150-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:23-47
+151                <data android:mimeType="audio/*" />
+151-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+151-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+152                <data android:mimeType="application/ogg" />
+152-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+152-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+153                <data android:mimeType="application/x-ogg" />
+153-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+153-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+154                <data android:mimeType="application/itunes" />
+154-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+154-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+155            </intent-filter>
+156            <intent-filter>
+156-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:124:13-133:29
+157                <action android:name="android.intent.action.VIEW" />
+157-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:116:17-69
+157-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:116:25-66
+158
+159                <category android:name="android.intent.category.DEFAULT" />
+159-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:17-76
+159-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:27-73
+160                <category android:name="android.intent.category.BROWSABLE" />
+160-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:127:17-78
+160-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:127:27-75
+161
+162                <data android:scheme="http" />
+162-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+162-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:23-47
+163                <data android:mimeType="audio/*" />
+163-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+163-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+164                <data android:mimeType="application/ogg" />
+164-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+164-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+165                <data android:mimeType="application/x-ogg" />
+165-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+165-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+166                <data android:mimeType="application/itunes" />
+166-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+166-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+167            </intent-filter>
+168            <intent-filter>
+168-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:134:13-143:29
+169                <action android:name="android.intent.action.VIEW" />
+169-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:116:17-69
+169-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:116:25-66
+170
+171                <category android:name="android.intent.category.DEFAULT" />
+171-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:17-76
+171-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:27-73
+172                <category android:name="android.intent.category.BROWSABLE" />
+172-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:127:17-78
+172-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:127:27-75
+173
+174                <data android:scheme="content" />
+174-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+174-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:23-47
+175                <data android:mimeType="audio/*" />
+175-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+175-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+176                <data android:mimeType="application/ogg" />
+176-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+176-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+177                <data android:mimeType="application/x-ogg" />
+177-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+177-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+178                <data android:mimeType="application/itunes" />
+178-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+178-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+179            </intent-filter>
+180        </activity>
+181        <activity
+181-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:146:9-160:20
+182            android:name="com.android.music.QueryBrowserActivity"
+182-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:146:19-72
+183            android:configChanges="orientation|keyboardHidden|screenSize"
+183-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:150:17-78
+184            android:exported="true"
+184-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:148:17-40
+185            android:launchMode="singleTask"
+185-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:149:17-48
+186            android:theme="@style/QueryTheme" >
+186-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:147:17-50
+187            <intent-filter>
+187-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:151:13-155:29
+188                <action android:name="android.intent.action.SEARCH" />
+188-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:152:17-71
+188-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:152:25-68
+189                <action android:name="android.intent.action.MEDIA_SEARCH" />
+189-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:153:17-77
+189-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:153:25-74
+190
+191                <category android:name="android.intent.category.DEFAULT" />
+191-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:17-76
+191-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:27-73
+192            </intent-filter>
+193
+194            <meta-data
+194-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:156:13-159:15
+195                android:name="android.app.searchable"
+195-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:157:17-54
+196                android:resource="@xml/searchable" />
+196-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:158:17-51
+197        </activity>
+198        <activity
+198-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:161:9-174:20
+199            android:name="com.android.music.PlaylistBrowserActivity"
+199-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:161:19-75
+200            android:configChanges="orientation|keyboardHidden|screenSize"
+200-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:164:17-78
+201            android:exported="true"
+201-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:163:17-40
+202            android:label="@string/musicbrowserlabel" >
+202-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:162:17-58
+203            <intent-filter>
+203-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:165:13-169:29
+204                <action android:name="android.intent.action.PICK" />
+204-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:166:17-69
+204-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:166:25-66
+205
+206                <category android:name="android.intent.category.DEFAULT" />
+206-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:17-76
+206-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:27-73
+207
+208                <data android:mimeType="vnd.android.cursor.dir/playlist" />
+208-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+208-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+209            </intent-filter>
+210            <intent-filter>
+210-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:170:13-173:29
+211                <category android:name="android.intent.category.DEFAULT" />
+211-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:17-76
+211-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:27-73
+212
+213                <data android:mimeType="vnd.android.cursor.dir/playlist" />
+213-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+213-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+214            </intent-filter>
+215        </activity>
+216        <activity
+216-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:188:9-190:20
+217            android:name="com.android.music.GestureHandler"
+217-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:188:19-48
+218            android:theme="@android:style/Theme.NoDisplay" >
+218-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:189:13-59
+219        </activity>
+220
+221        <activity-alias
+221-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:201:9-205:26
+222            android:name="com.android.music.MusticGestureNextActivity"
+222-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:201:25-83
+223            android:exported="true"
+223-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:204:13-36
+224            android:label="@string/music_gesture_next"
+224-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:203:13-55
+225            android:targetActivity="com.android.music.GestureHandler" >
+225-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:202:13-70
+226        </activity-alias>
+227        <activity-alias
+227-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:196:9-200:26
+228            android:name="com.android.music.MusticGesturePrevActivity"
+228-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:196:25-83
+229            android:exported="true"
+229-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:199:13-36
+230            android:label="@string/music_gesture_prev"
+230-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:198:13-55
+231            android:targetActivity="com.android.music.GestureHandler" >
+231-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:197:13-70
+232        </activity-alias>
+233        <activity-alias
+233-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:191:9-195:26
+234            android:name="com.android.music.MusticGesturePlayActivity"
+234-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:191:25-83
+235            android:exported="true"
+235-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:194:13-36
+236            android:label="@string/music_gesture_play"
+236-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:193:13-55
+237            android:targetActivity="com.android.music.GestureHandler" >
+237-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:192:13-70
+238        </activity-alias>
+239
+240        <activity
+240-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:207:9-227:20
+241            android:name="com.android.music.VideoBrowserActivity"
+241-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:207:19-72
+242            android:exported="true"
+242-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:211:13-36
+243            android:icon="@drawable/app_video"
+243-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:210:13-47
+244            android:label="@string/videobrowserlabel"
+244-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:209:13-54
+245            android:taskAffinity="android.task.video" >
+245-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:208:13-54
+246            <intent-filter>
+246-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:212:13-216:29
+247                <action android:name="android.intent.action.PICK" />
+247-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:166:17-69
+247-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:166:25-66
+248
+249                <category android:name="android.intent.category.DEFAULT" />
+249-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:17-76
+249-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:27-73
+250
+251                <data android:mimeType="vnd.android.cursor.dir/video" />
+251-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+251-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+252            </intent-filter>
+253            <intent-filter>
+253-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:217:13-221:29
+254                <action android:name="android.intent.action.MAIN" />
+254-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:58:17-69
+254-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:58:25-66
+255
+256                <category android:name="android.intent.category.DEFAULT" />
+256-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:17-76
+256-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:27-73
+257                <category android:name="android.intent.category.LAUNCHER" />
+257-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:61:17-77
+257-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:61:27-74
+258            </intent-filter>
+259            <intent-filter>
+259-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:222:13-224:29
+260                <action android:name="android.intent.action.SEARCH" />
+260-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:152:17-71
+260-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:152:25-68
+261            </intent-filter>
+262
+263            <meta-data
+263-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:156:13-159:15
+264                android:name="android.app.searchable"
+264-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:157:17-54
+265                android:resource="@xml/searchable_video" />
+265-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:158:17-51
+266        </activity>
+267        <activity
+267-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:228:9-251:20
+268            android:name="com.android.music.MediaPickerActivity"
+268-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:228:19-71
+269            android:exported="false"
+269-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:229:58-82
+270            android:label="@string/mediapickerlabel" >
+270-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:229:17-57
+271
+272            <!--
+273            <intent-filter>
+274                <action android:name="android.intent.action.PICK" />
+275                <category android:name="android.intent.category.DEFAULT" />
+276                <data android:mimeType="media/*"/>
+277                <data android:mimeType="audio/*"/>
+278                <data android:mimeType="application/ogg"/>
+279                <data android:mimeType="application/x-ogg"/>
+280                <data android:mimeType="video/*"/>
+281            </intent-filter>
+282            <intent-filter>
+283                <action android:name="android.intent.action.GET_CONTENT" />
+284                <category android:name="android.intent.category.DEFAULT" />
+285                <category android:name="android.intent.category.OPENABLE" />
+286                <data android:mimeType="media/*"/>
+287                <data android:mimeType="audio/*"/>
+288                <data android:mimeType="application/ogg"/>
+289                <data android:mimeType="application/x-ogg"/>
+290                <data android:mimeType="video/*"/>
+291            </intent-filter>
+292            -->
+293        </activity>
+294        <activity
+294-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:252:9-273:20
+295            android:name="com.android.music.MusicPicker"
+295-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:252:19-63
+296            android:configChanges="orientation|keyboardHidden|screenSize"
+296-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:253:17-78
+297            android:exported="true"
+297-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:254:60-83
+298            android:label="@string/music_picker_title" >
+298-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:254:17-59
+299
+300            <!--
+301                 First way to invoke us: someone asks to get content of
+302                 any of the audio types we support.
+303            -->
+304            <intent-filter>
+304-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:257:13-264:29
+305                <action android:name="android.intent.action.GET_CONTENT" />
+305-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:258:17-76
+305-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:258:25-73
+306
+307                <category android:name="android.intent.category.DEFAULT" />
+307-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:17-76
+307-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:27-73
+308                <category android:name="android.intent.category.OPENABLE" />
+308-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:260:17-77
+308-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:260:27-74
+309
+310                <data android:mimeType="audio/*" />
+310-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+310-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+311                <data android:mimeType="application/ogg" />
+311-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+311-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+312                <data android:mimeType="application/x-ogg" />
+312-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+312-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+313            </intent-filter>
+314            <!--
+315                 Second way to invoke us: someone asks to pick an item from
+316                 some media Uri.
+317            -->
+318            <intent-filter>
+318-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:267:13-272:29
+319                <action android:name="android.intent.action.PICK" />
+319-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:166:17-69
+319-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:166:25-66
+320
+321                <category android:name="android.intent.category.DEFAULT" />
+321-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:17-76
+321-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:27-73
+322                <category android:name="android.intent.category.OPENABLE" />
+322-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:260:17-77
+322-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:260:27-74
+323
+324                <data android:mimeType="vnd.android.cursor.dir/audio" />
+324-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-49
+324-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:23-49
+325            </intent-filter>
+326        </activity>
+327        <activity
+327-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:274:9-276:66
+328            android:name="com.android.music.CreatePlaylist"
+328-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:274:19-66
+329            android:configChanges="orientation|keyboardHidden"
+329-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:276:13-63
+330            android:exported="false"
+330-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:275:72-96
+331            android:theme="@android:style/Theme.Material.Light.Dialog" />
+331-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:275:13-71
+332        <activity
+332-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:277:9-278:99
+333            android:name="com.android.music.RenamePlaylist"
+333-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:277:19-66
+334            android:exported="false"
+334-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:278:72-96
+335            android:theme="@android:style/Theme.Material.Light.Dialog" />
+335-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:278:13-71
+336        <activity
+336-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:279:9-280:99
+337            android:name="com.android.music.WeekSelector"
+337-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:279:19-64
+338            android:exported="false"
+338-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:280:72-96
+339            android:theme="@android:style/Theme.Material.Light.Dialog" />
+339-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:280:13-71
+340        <activity
+340-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:281:9-282:99
+341            android:name="com.android.music.DeleteItems"
+341-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:281:19-63
+342            android:exported="false"
+342-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:282:72-96
+343            android:theme="@android:style/Theme.Material.Light.Dialog" />
+343-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:282:13-71
+344        <activity
+344-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:283:9-284:99
+345            android:name="com.android.music.ScanningProgress"
+345-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:283:19-68
+346            android:exported="false"
+346-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:284:72-96
+347            android:theme="@android:style/Theme.Material.Light.Dialog" />
+347-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:284:13-71
+348
+349        <service
+349-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:285:9-286:40
+350            android:name="com.android.music.MediaPlaybackService"
+350-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:285:18-71
+351            android:exported="false" />
+351-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:286:13-37
+352
+353        <receiver android:name="com.android.music.MediaAppWidgetProvider" >
+353-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:288:9-296:20
+353-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:288:19-74
+354            <intent-filter>
+354-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:289:13-291:29
+355                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+355-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:290:17-84
+355-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:290:25-81
+356            </intent-filter>
+357            <intent-filter>
+357-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:292:13-294:29
+358                <action android:name="com.android.music.updatewidget" />
+358-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:293:17-73
+358-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:293:25-70
+359            </intent-filter>
+360
+361            <meta-data
+361-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:295:13-107
+362                android:name="android.appwidget.provider"
+362-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:295:24-65
+363                android:resource="@xml/appwidget_info" />
+363-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:295:66-104
+364        </receiver>
+365        <receiver android:name="com.android.music.MediaAppWidgetProviderLarge" >
+365-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:298:9-307:20
+365-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:298:19-79
+366            <intent-filter>
+366-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:289:13-291:29
+367                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+367-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:290:17-84
+367-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:290:25-81
+368            </intent-filter>
+369            <intent-filter>
+369-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:292:13-294:29
+370                <action android:name="com.android.music.updatewidget" />
+370-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:293:17-73
+370-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:293:25-70
+371            </intent-filter>
+372
+373            <meta-data
+373-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:295:13-107
+374                android:name="android.appwidget.provider"
+374-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:295:24-65
+375                android:resource="@xml/appwidget_info_l" />
+375-->C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:295:66-104
+376        </receiver>
+377    </application>
+378
+379</manifest>

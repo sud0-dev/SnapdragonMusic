@@ -68,6 +68,7 @@ import android.os.PowerManager;
 import android.os.SystemClock;
 import android.os.PowerManager.WakeLock;
 import android.provider.MediaStore;
+//import android.support.v4.media.session.MediaSessionCompat;
 import android.support.v4.media.session.MediaSessionCompat;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -75,7 +76,9 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.RemoteViews;
 import android.widget.Toast;
-import android.support.v4.app.NotificationCompat;
+//import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
+
 import java.io.FileDescriptor;
 import java.io.IOException;
 import java.io.PrintWriter;

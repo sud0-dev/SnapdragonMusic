@@ -26,6 +26,7 @@ import com.codeaurora.music.custom.MusicPanelLayout.BoardState;
 import com.codeaurora.music.custom.PermissionActivity;
 
 import android.Manifest.permission;
+import android.annotation.SuppressLint;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.BroadcastReceiver;
@@ -49,9 +50,9 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.os.RemoteException;
 import android.provider.MediaStore;
-import android.support.v4.app.ActionBarDrawerToggle;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.AppCompatActivity;
+//import android.support.v4.app.ActionBarDrawerToggle;
+//import android.support.v4.widget.DrawerLayout;
+//import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -71,6 +72,8 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.Toolbar;
 import android.widget.Toolbar.OnMenuItemClickListener;
+
+import androidx.drawerlayout.widget.DrawerLayout;
 
 public class MusicBrowserActivity extends MediaPlaybackActivity implements
         MusicUtils.Defs {
@@ -181,6 +184,7 @@ public class MusicBrowserActivity extends MediaPlaybackActivity implements
         activeTab = MusicUtils.getIntPref(this, "activetab", 0);
         mDrawerListView
                 .setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @SuppressLint("WrongConstant")
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view,
                             int position, long id) {
@@ -211,10 +215,11 @@ public class MusicBrowserActivity extends MediaPlaybackActivity implements
                         });
                     }
                 });
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
+        mDrawerLayout = findViewById(R.id.drawerLayout);
 
         equalizerLayout.setOnClickListener(new OnClickListener() {
 
+            @SuppressLint("WrongConstant")
             @Override
             public void onClick(View v) {
                 MusicUtils.startSoundEffectActivity(MusicBrowserActivity.this);
@@ -256,6 +261,7 @@ public class MusicBrowserActivity extends MediaPlaybackActivity implements
         mToolbar.setNavigationContentDescription("drawer");
         mToolbar.setNavigationOnClickListener(new OnClickListener() {
 
+            @SuppressLint("WrongConstant")
             @Override
             public void onClick(View v) {
                 if (mToolbar.getNavigationContentDescription().equals("drawer")) {

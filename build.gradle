@@ -31,7 +31,7 @@ android {
 
     defaultConfig {
         applicationId "com.android.music"
-        minSdkVersion 28
+        minSdkVersion 29
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -54,7 +54,7 @@ android {
             manifest.srcFile 'AndroidManifest.xml'
             java.srcDirs = ['src']
             res.srcDirs = ['res']
-            aidl.srcDirs = ['aidl']
+            aidl.srcDirs = ['aidl/com/android/music']
             jni.srcDirs = ['jni']
             assets.srcDirs = ['assets']
         }
@@ -68,6 +68,8 @@ dependencies {
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
     testImplementation 'junit:junit:4.12'
     implementation 'com.google.android.material:material:1.1.0'
+    implementation "com.android.support:support-compat:29.0.0"
+    implementation "com.android.support:support-media-compat:29.0.0"
     implementation 'com.airbnb.android:lottie:3.1.0'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'

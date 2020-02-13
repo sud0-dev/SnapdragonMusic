@@ -18,9 +18,10 @@
     package="com.android.music"
     android:targetSandboxVersion="2"
     android:versionCode="1"
-    android:versionName="1.0" > <!-- SDK Versions -->
+    android:versionName="1.0" >
+
     <uses-sdk
-        android:minSdkVersion="28"
+        android:minSdkVersion="29"
         android:targetSdkVersion="29" />
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />

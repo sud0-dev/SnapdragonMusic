@@ -47,9 +47,12 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
-import android.support.v4.view.MotionEventCompat;
-import android.support.v4.view.ViewCompat;
+//import android.support.v4.view.MotionEventCompat;
+//import android.support.v4.view.ViewCompat;
 import android.util.Log;
+
+import androidx.core.view.MotionEventCompat;
+import androidx.core.view.ViewCompat;
 
 import com.android.music.MediaPlaybackActivity;
 import com.android.music.MusicBrowserActivity.SimplePanelSlideListener;
