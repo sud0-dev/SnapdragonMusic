@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\KIIT\\Desktop\\SnapdragonMusic\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-el-keysexposed\\values-el-keysexposed.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\KIIT\\Desktop\\SnapdragonMusic\\res\\values-el-keysexposed\\strings.xml",
+                    "from": {
+                        "startLines": "21,23,22",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "826,1100,934",
+                        "endColumns": "106,163,164",
+                        "endOffsets": "928,1259,1094"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "105,212,372",
+                        "endColumns": "106,159,160",
+                        "endOffsets": "207,367,528"
+                    }
+                }
+            ]
+        }
+    ]
+}

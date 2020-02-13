@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\KIIT\\Desktop\\SnapdragonMusic\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-v13\\values-w360dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\KIIT\\Desktop\\SnapdragonMusic\\res\\values-w360dp\\dimens.xml",
+                    "from": {
+                        "startLines": "33,32,34,31",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1744,1695,1794,1654",
+                        "endColumns": "48,47,45,39",
+                        "endOffsets": "1788,1738,1835,1689"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,104,152,198",
+                        "endColumns": "48,47,45,39",
+                        "endOffsets": "99,147,193,233"
+                    }
+                }
+            ]
+        }
+    ]
+}

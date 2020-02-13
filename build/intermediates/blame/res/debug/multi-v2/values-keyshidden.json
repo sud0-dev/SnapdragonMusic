@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\KIIT\\Desktop\\SnapdragonMusic\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-keyshidden\\values-keyshidden.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\KIIT\\Desktop\\SnapdragonMusic\\res\\values-keyshidden\\strings.xml",
+                    "from": {
+                        "startLines": "21,26,24",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "844,1413,1160",
+                        "endColumns": "206,234,142",
+                        "endOffsets": "1046,1643,1298"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "105,308,535",
+                        "endColumns": "202,226,138",
+                        "endOffsets": "303,530,669"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="iconlayoutheight">220dp</dimen>
+    <dimen name="iconlayoutwidth">171dp</dimen>
+    <dimen name="iconpaddingtop">12dp</dimen>
+    <dimen name="icontile">80dp</dimen>
+</resources>

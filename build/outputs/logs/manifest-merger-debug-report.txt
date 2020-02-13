@@ -1,0 +1,545 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:17:1-313:12
+INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:17:1-313:12
+INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:17:1-313:12
+INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:17:1-313:12
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\d8c23e5f8de48e0d393244203a068403\material-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.airbnb.android:lottie:3.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\17fdac9c42e79274ebde8be181653ca6\jetified-lottie-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\32ed2bf327e411dbd2b87384eadaeab8\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\c5594b68288c3d3c80065841e15aa36c\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\96dd980749180d192715775d0451e100\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\9b781037c5754323868d0492694b9ab9\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\874cc31cacab714ebe8317d8131e6b6b\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\d12463420902765e024313cfc503270d\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\80344977452bfa10ebb235880bdcde21\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\21eb90c0697c7ef79901bd7492230b7f\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\8d5de08f7e0744c131109b955b8d7820\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\3cdf8cdb8d546bf3f444dc73f546b82f\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\e679217f7abdadcffefe66a17c521390\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\7681778736c19d17bac31b22f237915d\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\f701595dec96de01dc0adff0ad508040\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\810ff23acdef3de8ea3ae882f6ee2bbe\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\d2775d299949fbb7ca2c1828ee4fc7d1\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\adcfe2bad6b618dca36cb986067341f7\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\3e48cd5025fe4bf00f7af22ebf29534a\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\25053394e11f3b05d5a2d67c677b4ed9\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\2cab9bff4181e4347eb95f6ccbca6bb7\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\3990bf3f7a41027667637032ad9bc7ae\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\757bef693b1fa5e86d52991f7f25ca54\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\0f63cfdfc8983cae7d1039a662ada941\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\e0248fab1cdc9fbbe6b85c7356d19022\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\c5352b1305cce07133c607d84d572f51\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\1c4c663b5bd2b9fa04184a899ea73e1e\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\3a81263a88f6e41676ba26dcf5d5edc2\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\85feda243638c8e9ff3e8eabb87b4ccb\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\8c537e90583409525b0a026a1fed4b3b\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:17:1-313:12
+INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:17:1-313:12
+INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:17:1-313:12
+	package
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:18:9-36
+		INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml
+		INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:17:1-313:12
+		INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:17:1-313:12
+		INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:17:11-69
+uses-sdk
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:21:5-22:46
+INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:21:5-22:46
+INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:21:5-22:46
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\d8c23e5f8de48e0d393244203a068403\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\d8c23e5f8de48e0d393244203a068403\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.airbnb.android:lottie:3.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\17fdac9c42e79274ebde8be181653ca6\jetified-lottie-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\17fdac9c42e79274ebde8be181653ca6\jetified-lottie-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\32ed2bf327e411dbd2b87384eadaeab8\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\32ed2bf327e411dbd2b87384eadaeab8\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\c5594b68288c3d3c80065841e15aa36c\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\c5594b68288c3d3c80065841e15aa36c\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\96dd980749180d192715775d0451e100\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\96dd980749180d192715775d0451e100\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\9b781037c5754323868d0492694b9ab9\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\9b781037c5754323868d0492694b9ab9\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\874cc31cacab714ebe8317d8131e6b6b\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\874cc31cacab714ebe8317d8131e6b6b\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\d12463420902765e024313cfc503270d\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\d12463420902765e024313cfc503270d\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\80344977452bfa10ebb235880bdcde21\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\80344977452bfa10ebb235880bdcde21\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\21eb90c0697c7ef79901bd7492230b7f\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\21eb90c0697c7ef79901bd7492230b7f\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\8d5de08f7e0744c131109b955b8d7820\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\8d5de08f7e0744c131109b955b8d7820\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\3cdf8cdb8d546bf3f444dc73f546b82f\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\3cdf8cdb8d546bf3f444dc73f546b82f\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\e679217f7abdadcffefe66a17c521390\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\e679217f7abdadcffefe66a17c521390\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\7681778736c19d17bac31b22f237915d\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\7681778736c19d17bac31b22f237915d\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\f701595dec96de01dc0adff0ad508040\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\f701595dec96de01dc0adff0ad508040\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\810ff23acdef3de8ea3ae882f6ee2bbe\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\810ff23acdef3de8ea3ae882f6ee2bbe\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\d2775d299949fbb7ca2c1828ee4fc7d1\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\d2775d299949fbb7ca2c1828ee4fc7d1\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\adcfe2bad6b618dca36cb986067341f7\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\adcfe2bad6b618dca36cb986067341f7\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\3e48cd5025fe4bf00f7af22ebf29534a\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\3e48cd5025fe4bf00f7af22ebf29534a\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\25053394e11f3b05d5a2d67c677b4ed9\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\25053394e11f3b05d5a2d67c677b4ed9\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\2cab9bff4181e4347eb95f6ccbca6bb7\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\2cab9bff4181e4347eb95f6ccbca6bb7\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\3990bf3f7a41027667637032ad9bc7ae\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\3990bf3f7a41027667637032ad9bc7ae\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\757bef693b1fa5e86d52991f7f25ca54\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\757bef693b1fa5e86d52991f7f25ca54\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\0f63cfdfc8983cae7d1039a662ada941\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\0f63cfdfc8983cae7d1039a662ada941\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\e0248fab1cdc9fbbe6b85c7356d19022\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\e0248fab1cdc9fbbe6b85c7356d19022\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\c5352b1305cce07133c607d84d572f51\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\c5352b1305cce07133c607d84d572f51\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\1c4c663b5bd2b9fa04184a899ea73e1e\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\1c4c663b5bd2b9fa04184a899ea73e1e\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\3a81263a88f6e41676ba26dcf5d5edc2\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\3a81263a88f6e41676ba26dcf5d5edc2\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\85feda243638c8e9ff3e8eabb87b4ccb\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\85feda243638c8e9ff3e8eabb87b4ccb\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\8c537e90583409525b0a026a1fed4b3b\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\8c537e90583409525b0a026a1fed4b3b\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:21:5-22:46
+INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:21:5-22:46
+	android:targetSdkVersion
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:22:15-44
+		INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml
+		INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:21:15-41
+		INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml
+		INJECTED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:24:5-76
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:24:22-74
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:25:5-72
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:25:22-70
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:26:22-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:27:22-65
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:28:5-66
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:28:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:29:5-74
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:29:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:30:5-79
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:30:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:31:5-80
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:31:22-78
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:32:5-74
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:32:22-72
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:33:5-68
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:33:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:34:5-74
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:34:22-71
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:35:5-83
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:35:22-81
+uses-permission#android.permission.WRITE_MEDIA_STORAGE
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:36:5-77
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:36:22-75
+application
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:40:5-312:19
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\d8c23e5f8de48e0d393244203a068403\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\d8c23e5f8de48e0d393244203a068403\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.airbnb.android:lottie:3.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\17fdac9c42e79274ebde8be181653ca6\jetified-lottie-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\17fdac9c42e79274ebde8be181653ca6\jetified-lottie-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\c5594b68288c3d3c80065841e15aa36c\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\c5594b68288c3d3c80065841e15aa36c\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\25053394e11f3b05d5a2d67c677b4ed9\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\25053394e11f3b05d5a2d67c677b4ed9\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\0f63cfdfc8983cae7d1039a662ada941\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\0f63cfdfc8983cae7d1039a662ada941\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\KIIT\.gradle\caches\transforms-2\files-2.1\25053394e11f3b05d5a2d67c677b4ed9\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:47:9-35
+	android:label
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:42:9-50
+	android:hardwareAccelerated
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:44:9-43
+	android:allowTaskReparenting
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:45:9-44
+	android:icon
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:41:9-43
+	android:allowBackup
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:48:9-35
+	android:taskAffinity
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:43:9-50
+	android:usesCleartextTraffic
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:46:9-44
+meta-data#android.app.default_searchable
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:51:8-54:11
+	android:value
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:53:13-67
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:52:13-58
+activity#com.android.music.MusicBrowserActivity
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:56:9-87:20
+	android:launchMode
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:59:13-44
+	android:exported
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:60:13-36
+	android:configChanges
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:58:13-69
+	android:theme
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:57:13-44
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:56:19-72
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.MUSIC_PLAYER+category:name:android.intent.category.APP_MUSIC+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:61:13-67:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:62:17-69
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:62:25-66
+action#android.intent.action.MUSIC_PLAYER
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:63:17-77
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:63:25-74
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:17-76
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:64:27-73
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:65:17-77
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:65:27-74
+category#android.intent.category.APP_MUSIC
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:17-78
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:66:27-75
+intent-filter#category:name:android.intent.category.DEFAULT+data:host:media+data:mimeType:application/itunes+data:mimeType:application/ogg+data:mimeType:application/x-ogg+data:mimeType:audio/*+data:mimeType:vnd.android.cursor.dir/playlist+data:scheme:content
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:68:15-77:29
+data
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:17-49
+	android:host
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:71:23-43
+	android:scheme
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:70:23-47
+	android:mimeType
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:72:23-49
+intent-filter#action:name:android.intent.action.EDIT+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.dir/playlist
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:78:13-82:29
+action#android.intent.action.EDIT
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:79:17-69
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:79:25-66
+intent-filter#action:name:com.android.music.PLAYBACK_VIEWER+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:83:13-86:29
+action#com.android.music.PLAYBACK_VIEWER
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:84:25-73
+activity#com.android.music.MediaPlaybackActivity
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:99:9-109:20
+	android:clearTaskOnLaunch
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:104:17-49
+	android:label
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:101:17-59
+	android:excludeFromRecents
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:105:17-50
+	android:launchMode
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:103:17-48
+	android:configChanges
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:106:17-67
+	android:theme
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:100:17-48
+	android:taskAffinity
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:102:17-40
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:99:19-73
+activity#com.codeaurora.music.custom.PermissionActivity
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:111:9-113:20
+	android:launchMode
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:112:19-50
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:111:19-80
+activity#com.android.music.AudioPreview
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:115:9-148:20
+	android:excludeFromRecents
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:117:17-50
+	android:exported
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:117:51-74
+	android:configChanges
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:118:17-52
+	android:theme
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:115:47-99
+	android:taskAffinity
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:116:17-40
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:115:19-46
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/itunes+data:mimeType:application/ogg+data:mimeType:application/x-ogg+data:mimeType:audio/*+data:scheme:file
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:119:13-127:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:120:17-69
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:120:25-66
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:mimeType:application/itunes+data:mimeType:application/ogg+data:mimeType:application/x-ogg+data:mimeType:audio/*+data:scheme:http
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:128:13-137:29
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:131:17-78
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:131:27-75
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:mimeType:application/itunes+data:mimeType:application/ogg+data:mimeType:application/x-ogg+data:mimeType:audio/*+data:scheme:content
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:138:13-147:29
+activity#com.android.music.QueryBrowserActivity
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:150:9-164:20
+	android:launchMode
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:153:17-48
+	android:exported
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:152:17-40
+	android:configChanges
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:154:17-78
+	android:theme
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:151:17-50
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:150:19-72
+intent-filter#action:name:android.intent.action.MEDIA_SEARCH+action:name:android.intent.action.SEARCH+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:155:13-159:29
+action#android.intent.action.SEARCH
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:156:17-71
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:156:25-68
+action#android.intent.action.MEDIA_SEARCH
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:157:17-77
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:157:25-74
+meta-data#android.app.searchable
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:160:13-163:15
+	android:resource
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:162:17-51
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:161:17-54
+activity#com.android.music.PlaylistBrowserActivity
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:165:9-178:20
+	android:label
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:166:17-58
+	android:exported
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:167:17-40
+	android:configChanges
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:168:17-78
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:165:19-75
+intent-filter#action:name:android.intent.action.PICK+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.dir/playlist
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:169:13-173:29
+action#android.intent.action.PICK
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:170:17-69
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:170:25-66
+intent-filter#category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.dir/playlist
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:174:13-177:29
+activity-alias#com.android.music.PlaylistShortcutActivity
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:179:9-190:26
+	android:label
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:181:13-55
+	android:exported
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:183:13-36
+	android:targetActivity
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:180:13-76
+	android:icon
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:182:13-73
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:179:25-82
+intent-filter#action:name:android.intent.action.CREATE_SHORTCUT+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:185:13-188:29
+action#android.intent.action.CREATE_SHORTCUT
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:186:17-80
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:186:25-77
+activity#com.android.music.GestureHandler
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:192:9-194:20
+	android:theme
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:193:13-59
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:192:19-48
+activity-alias#com.android.music.MusticGesturePlayActivity
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:195:9-199:26
+	android:label
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:197:13-55
+	android:exported
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:198:13-36
+	android:targetActivity
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:196:13-70
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:195:25-83
+activity-alias#com.android.music.MusticGesturePrevActivity
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:200:9-204:26
+	android:label
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:202:13-55
+	android:exported
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:203:13-36
+	android:targetActivity
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:201:13-70
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:200:25-83
+activity-alias#com.android.music.MusticGestureNextActivity
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:205:9-209:26
+	android:label
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:207:13-55
+	android:exported
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:208:13-36
+	android:targetActivity
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:206:13-70
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:205:25-83
+activity#com.android.music.VideoBrowserActivity
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:211:9-231:20
+	android:label
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:213:13-54
+	android:exported
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:215:13-36
+	android:icon
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:214:13-47
+	android:taskAffinity
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:212:13-54
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:211:19-72
+intent-filter#action:name:android.intent.action.PICK+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.dir/video
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:216:13-220:29
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:221:13-225:29
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:226:13-228:29
+activity#com.android.music.MediaPickerActivity
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:232:9-255:20
+	android:label
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:233:17-57
+	android:exported
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:233:58-82
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:232:19-71
+activity#com.android.music.MusicPicker
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:256:9-277:20
+	android:label
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:258:17-59
+	android:exported
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:258:60-83
+	android:configChanges
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:257:17-78
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:256:19-63
+intent-filter#action:name:android.intent.action.GET_CONTENT+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.OPENABLE+data:mimeType:application/ogg+data:mimeType:application/x-ogg+data:mimeType:audio/*
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:261:13-268:29
+action#android.intent.action.GET_CONTENT
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:262:17-76
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:262:25-73
+category#android.intent.category.OPENABLE
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:264:17-77
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:264:27-74
+intent-filter#action:name:android.intent.action.PICK+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.OPENABLE+data:mimeType:vnd.android.cursor.dir/audio
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:271:13-276:29
+activity#com.android.music.CreatePlaylist
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:278:9-280:66
+	android:exported
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:279:72-96
+	android:configChanges
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:280:13-63
+	android:theme
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:279:13-71
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:278:19-66
+activity#com.android.music.RenamePlaylist
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:281:9-282:99
+	android:exported
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:282:72-96
+	android:theme
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:282:13-71
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:281:19-66
+activity#com.android.music.WeekSelector
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:283:9-284:99
+	android:exported
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:284:72-96
+	android:theme
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:284:13-71
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:283:19-64
+activity#com.android.music.DeleteItems
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:285:9-286:99
+	android:exported
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:286:72-96
+	android:theme
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:286:13-71
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:285:19-63
+activity#com.android.music.ScanningProgress
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:287:9-288:99
+	android:exported
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:288:72-96
+	android:theme
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:288:13-71
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:287:19-68
+service#com.android.music.MediaPlaybackService
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:289:9-290:40
+	android:exported
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:290:13-37
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:289:18-71
+receiver#com.android.music.MediaAppWidgetProvider
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:292:9-300:20
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:292:19-74
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:293:13-295:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:294:17-84
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:294:25-81
+intent-filter#action:name:com.android.music.updatewidget
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:296:13-298:29
+action#com.android.music.updatewidget
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:297:17-73
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:297:25-70
+meta-data#android.appwidget.provider
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:299:13-107
+	android:resource
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:299:66-104
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:299:24-65
+receiver#com.android.music.MediaAppWidgetProviderLarge
+ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:302:9-311:20
+	android:name
+		ADDED from C:\Users\KIIT\Desktop\SnapdragonMusic\AndroidManifest.xml:302:19-79

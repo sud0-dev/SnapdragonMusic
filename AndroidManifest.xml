@@ -17,12 +17,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         package="com.android.music">
 
-    <!-- Package Name -->
-    <original-package android:name="com.android.music"/>
-
     <!-- SDK Versions -->
-    <uses-sdk android:minSdkVersion="21"
-              android:targetSdkVersion="28"/>
+    <uses-sdk android:minSdkVersion="28"
+              android:targetSdkVersion="29"/>
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
     <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
@@ -47,7 +44,8 @@
         android:hardwareAccelerated="true"
         android:allowTaskReparenting="true"
         android:usesCleartextTraffic="true"
-        android:supportsRtl="true">
+        android:supportsRtl="true"
+        android:allowBackup="true">
 
        <!-- Meta Data -->
        <meta-data

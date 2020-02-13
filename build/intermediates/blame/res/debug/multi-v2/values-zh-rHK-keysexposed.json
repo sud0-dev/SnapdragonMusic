@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\KIIT\\Desktop\\SnapdragonMusic\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK-keysexposed\\values-zh-rHK-keysexposed.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\KIIT\\Desktop\\SnapdragonMusic\\res\\values-zh-rHK-keysexposed\\strings.xml",
+                    "from": {
+                        "startLines": "21,23,22",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "826,1057,926",
+                        "endColumns": "98,128,129",
+                        "endOffsets": "920,1181,1051"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "105,204,329",
+                        "endColumns": "98,124,125",
+                        "endOffsets": "199,324,450"
+                    }
+                }
+            ]
+        }
+    ]
+}
